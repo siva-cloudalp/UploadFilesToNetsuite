@@ -1,0 +1,110 @@
+{
+    "name": "MultiLanguage",
+    "fantasyName": "MultiLanguage",
+    "vendor": "CloudAlp",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": ">=21.2.0",
+        "SCS": ">=21.2.0"
+    },
+    "description": "Show the multilanguage for single domain.",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/MultiLanguage.Service.ss"
+            ]
+        }
+    },
+    "configuration": {
+        "files": [
+            "Modules/MultiLanguage/Configuration/MultiLanguage.json"
+        ]
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/MultiLanguage/Sass/_multilanguage-multilanguage.scss",
+            "myaccount": "Modules/MultiLanguage/Sass/_multilanguage-multilanguage.scss",
+            "checkout": "Modules/MultiLanguage/Sass/_multilanguage-multilanguage.scss"
+        },
+        "files": [
+            "Modules/MultiLanguage/Sass/_multilanguage-multilanguage.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/MultiLanguage/Templates/cloudalp_multilanguage_multilanguage.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/MultiLanguage/Templates/cloudalp_multilanguage_multilanguage.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/MultiLanguage/Templates/cloudalp_multilanguage_multilanguage.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/MultiLanguage/JavaScript/CloudAlp.MultiLanguage.MultiLanguage.js",
+            "myaccount": "Modules/MultiLanguage/JavaScript/CloudAlp.MultiLanguage.MultiLanguage.js",
+            "checkout": "Modules/MultiLanguage/JavaScript/CloudAlp.MultiLanguage.MultiLanguage.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/MultiLanguage/JavaScript/CloudAlp.MultiLanguage.MultiLanguage.js",
+                    "Modules/MultiLanguage/JavaScript/MultiLanguage.View.js",
+                    "Modules/MultiLanguage/JavaScript/CloudAlp.MultiLanguage.MultiLanguage.Model.js",
+                    "Modules/MultiLanguage/JavaScript/CloudAlp.MultiLanguage.MultiLanguage.SS2Model.js",
+                    "Modules/MultiLanguage/JavaScript/MultiLanguage.Collection.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/MultiLanguage/JavaScript/CloudAlp.MultiLanguage.MultiLanguage.js",
+                    "Modules/MultiLanguage/JavaScript/MultiLanguage.View.js",
+                    "Modules/MultiLanguage/JavaScript/CloudAlp.MultiLanguage.MultiLanguage.Model.js",
+                    "Modules/MultiLanguage/JavaScript/CloudAlp.MultiLanguage.MultiLanguage.SS2Model.js",
+                    "Modules/MultiLanguage/JavaScript/MultiLanguage.Collection.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/MultiLanguage/JavaScript/CloudAlp.MultiLanguage.MultiLanguage.js",
+                    "Modules/MultiLanguage/JavaScript/MultiLanguage.View.js",
+                    "Modules/MultiLanguage/JavaScript/CloudAlp.MultiLanguage.MultiLanguage.Model.js",
+                    "Modules/MultiLanguage/JavaScript/CloudAlp.MultiLanguage.MultiLanguage.SS2Model.js",
+                    "Modules/MultiLanguage/JavaScript/MultiLanguage.Collection.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/MultiLanguage/SuiteScript/CloudAlp.MultiLanguage.MultiLanguage.js",
+        "files": [
+            "Modules/MultiLanguage/SuiteScript/CloudAlp.MultiLanguage.MultiLanguage.js",
+            "Modules/MultiLanguage/SuiteScript/MultiLanguage.ServiceController.js"
+        ]
+    },
+    "local_folder": "Workspace\\MultiLanguage",
+    "suitescript2": {
+        "files": [
+            "Modules/MultiLanguage/SuiteScript2/MultiLanguage.Service.ss"
+        ]
+    }
+}

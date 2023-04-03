@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": { 
+        "MultiLanguage.config": {
+            "group": "extensions",
+            "subtab": "MultiLanguage_subtab",
+            "type": "string",
+            "title": "MultiLanguage_Title",
+            "description": "Config description example",
+            "default": "Default config example"
+        }
+    }
+}
